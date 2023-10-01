@@ -156,40 +156,7 @@ def GovernorateId(governorate):
 # ======================================================================================================================
 # fill the newDf
 for i in range(len(data)):
-    if i == 0:
-        for j in range(2):
-            newDf.loc[j] = [
-                2,
-                1,
-                datetime.datetime.now().strftime("%d-%m-%Y"),
-                "",
-                19,
-                data[i]["nom"],
-                data[i]["tel"],
-                data[i]["adr"],
-                224,
-                224,
-                GovernorateId("Ben Arous")[0],
-                GovernorateId(data[i]["ville"])[0],
-                GovernorateId("Ben Arous")[1],
-                GovernorateId(data[i]["ville"])[1],
-                1,
-                "cash_payment",
-                "",
-                1,
-                data[i]["desc"],
-                1,
-                1,
-                1,
-                1,
-                1,
-                int(data[i]["prix"]) - 8,
-                "",
-                "",
-                "",
-            ]
-    else:
-        newDf.loc[i + 1] = [
+    newDf.loc[i] = [
             2,
             1,
             datetime.datetime.now().strftime("%d-%m-%Y"),
@@ -219,9 +186,9 @@ for i in range(len(data)):
             "",
             "",
         ]
+    print(newDf.reciver_name[i]+ "✅")
 # ======================================================================================================================
 # save the newDf to a csv file
 newDf.to_csv("newLivrison.csv", index=False)
 # ======================================================================================================================
 
-print(data[0]["nom"])
