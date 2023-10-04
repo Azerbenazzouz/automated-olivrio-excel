@@ -191,4 +191,5 @@ for i in range(len(data)):
 # save the newDf to a csv file
 newDf.to_csv("newLivrison.csv", index=False)
 # ======================================================================================================================
-
+# supprimer le fichier excel
+os.remove(latest_file)

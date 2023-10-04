@@ -1,0 +1,4 @@
+type,branch_id,shipping_date,client_phone,client_address,reciver_name,reciver_phone,reciver_address,from_country_id,to_country_id,from_state_id,to_state_id,from_area_id,to_area_id,payment_type,payment_method_id,attachments_before_shipping,package_id,description,qty,weight,length,width,height,amount_to_be_collected,order_id,delivery_time,collection_time
+2,1,04-10-2023,,19,Ziche Hoda,27 919294,المنستير,224,224,2566,2553,2180,2167,1,cash_payment,,1,1*MONTRE CONNECTÉE HAINO TEKO G8 MINI - GOLD & ROSE MONTRE CONNECTÉE HAINO TEKO G8 MINI - GOLD & ROSE,1,1,1,1,1,149,,,
+2,1,04-10-2023,,19,Kawther akacha,94 992 725,2 منوبة اقامة ملكة,224,224,2566,2555,2180,2169,1,cash_payment,,1,1*Modio- 4G Ultra max Modio- 4G Ultra max,1,1,1,1,1,229,,,
+2,1,04-10-2023,,19,Rami,92609537,Cité Omar el Mokhtar sidi hssin,224,224,2566,2554,2180,2168,1,cash_payment,,1,1*MONTRE CONNECTÉE HAINO TEKO G8 MINI - GOLD & ROSE MONTRE CONNECTÉE HAINO TEKO G8 MINI - GOLD & ROSE,1,1,1,1,1,149,,,
