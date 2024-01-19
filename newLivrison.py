@@ -11,7 +11,7 @@ Governorate = [
     "Gabes",
     "Tataouine",
     "Medenine",
-    "Kef",
+    "Le Kef",
     "Kebili",
     "Siliana",
     "Kairouan",
@@ -157,7 +157,7 @@ def GovernorateId(governorate):
 # fill the newDf
 for i in range(len(data)):
     newDf.loc[i] = [
-            2,
+            1,
             1,
             datetime.datetime.now().strftime("%d-%m-%Y"),
             "",
