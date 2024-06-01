@@ -175,7 +175,7 @@ for i in range(len(data)):
             "cash_payment",
             "",
             1,
-            data[i]["desc"],
+            data[i]["desc"][0:51],
             1,
             1,
             1,
